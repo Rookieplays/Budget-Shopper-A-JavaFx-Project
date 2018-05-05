@@ -1,0 +1,46 @@
+.searchBar
+{
+
+     -fx-min-width: 130px;      
+     -fx-min-height: 80px;  
+     -fx-max-width: 300px;  
+     -fx-max-height: 135px;
+     -fx-background-color: transparent;
+     -fx-border-width:0 0 4 0;
+     -fx-border-color:  #ffc61a;
+     -fx-border-radius: 1.5em;
+     -fx-font-size:32px;
+     -fx-font:normal bold 32 Landon;
+     -fx-prompt-text-fill:#664d00;
+     -fx-prompt-font:italic normal 32 Landon;
+     -fx-text-fill:white;
+}
+.Sbackground
+{
+	-fx-background-color: skyblue, derive(skyblue, 25%);
+-fx-background-insets: -20, -10;
+-fx-background-image: url("/Assets/budgetShopperblur.png");
+-fx-background-position: left top, center;
+-fx-background-repeat: no-repeat;
+-fx-background-size: cover, auto;
+}
+.lists
+{
+
+}
+.edit
+{
+
+}
+.delete
+{
+
+}
+.lbl
+{
+
+}
+.lbl2
+{
+
+}

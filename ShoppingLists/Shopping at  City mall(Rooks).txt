@@ -1,0 +1,4 @@
+Items:0.0:0
+Clothes:30.0:1
+Shoes:90.0:265
+Food:20.0:2

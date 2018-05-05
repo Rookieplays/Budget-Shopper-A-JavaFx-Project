@@ -1,0 +1,98 @@
+.logoicon{
+	-fx-background-radius: 10em;
+     -fx-min-width: 73px;      
+     -fx-min-height: 73px;  
+     -fx-max-width: 133px;  
+     -fx-max-height: 135px;
+     -fx-background-color: transparent;
+     -fx-font-size:25px;
+}
+.logoicon:hover{
+
+     -fx-background-color: #262626;
+     
+}
+.bg{
+	-fx-background-color:  #1a1a1a;
+	-fx-border-width:6px;
+     -fx-border-color: black;
+
+}
+.registerfield{
+	
+	
+     -fx-min-width: 100px;      
+     -fx-min-height: 50px;  
+     -fx-max-width: 320px;  
+     -fx-max-height: 105px;
+     -fx-background-color: transparent;
+     -fx-border-width:5px;
+     -fx-border-color:  #4d4d4d;
+     -fx-border-radius: 1.5em;
+     -fx-font-size:24px;
+     -fx-font-family: cambria;
+     -fx-prompt-text-fill:#404040;
+     -fx-prompt-font-size:16px;
+     -fx-text-fill:white;
+
+}
+.confirm2
+{
+	
+     -fx-background-color: green;
+       
+}
+
+.confirmBtn
+{
+	-fx-background-radius: 10em;
+     -fx-min-width: 73px;      
+     -fx-min-height: 73px;  
+     -fx-max-width: 133px;  
+     -fx-max-height: 135px;
+     -fx-background-color: green;
+       -fx-font-family: cambria;
+     -fx-font-size:16px;
+     -fx-text-fill:white;
+}
+.confirm2:hover
+{
+	-fx-background-color: #00e600;
+     
+}
+.tooltip
+{
+	-fx-font: normal bold 16 Langdon;
+    -fx-base: #AE3522;
+    -fx-text-fill: orange;
+}
+.tooltip2
+{
+	-fx-font: normal bold 16 Langdon;
+    -fx-base: #AE3522;
+    -fx-text-fill: #336699;
+}
+.infobutton
+{
+     
+     -fx-border-color:  #4d4d4d;
+     -fx-border-radius: 5em;
+     -fx-background-radius: 5em;
+     -fx-min-width: 22px;      
+     -fx-min-height: 22px;  
+     -fx-max-width: 30px;  
+     -fx-max-height: 30px;
+     -fx-background-color: transparent;
+    
+     -fx-font: normal bold 10 Langdon;
+    -fx-text-fill: white;
+}
+.infobtton:hover
+{
+     -fx-background-color: #262626;
+}
+.infobuttonDudd
+{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}

@@ -1,0 +1,45 @@
+.bg{
+	-fx-background-color:  #1a1a1a;
+	-fx-border-width:6px;
+     -fx-border-color: black;
+}
+.loadingText
+{
+	-fx-font: normal bold 16 Langdon;
+    
+    -fx-text-fill: #336699;
+}
+.smalllogoicon
+{
+	
+	-fx-background-radius: 10em;
+     -fx-min-width: 23px;      
+     -fx-min-height: 23px;  
+     -fx-max-width: 53px;  
+     -fx-max-height: 53px;
+     -fx-background-color: transparent;
+     -fx-font-size:30px;
+}
+.smalllogoicon:hover{
+
+     -fx-background-color: #262626;
+     
+}
+.loadingTitle
+{
+	-fx-font: normal bold 20 Langdon;
+    
+    -fx-text-fill: green;
+}
+.loader
+{
+	  -fx-progress-color: #00e600;
+}
+
+.line{
+	-fx-font-weight: 29px;
+	-fx-text-fill:black;
+}
+.header{
+	-fx-background-color: #262626;
+}

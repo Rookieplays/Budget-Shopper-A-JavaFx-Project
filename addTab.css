@@ -1,0 +1,202 @@
+.mainVbox
+{
+	-fx-background-color:#000000;
+}
+.addListVbox
+{
+	-fx-background-color:#0d1a00;
+}
+.listName
+{
+
+     -fx-min-width: 120px;      
+     -fx-min-height: 80px;  
+     -fx-max-width: 500px;  
+     -fx-max-height: 135px;
+     -fx-background-color: transparent;
+     -fx-border-width:5px;
+     -fx-border-color:  #4d4d4d;
+     -fx-border-radius: 1.5em;
+     -fx-font-size:24px;
+     -fx-font-family: cambria;
+     -fx-prompt-text-fill:#404040;
+     -fx-prompt-font-size:16px;
+     -fx-text-fill:white;
+}
+.list-cell 
+{
+  -fx-font: normal bold 20pt Langdon cambria ;
+
+}
+.exit
+{
+    -fx-background-radius: 5em;
+     -fx-min-width: 33px;      
+     -fx-min-height: 33px;  
+     -fx-max-width: 50px;  
+     -fx-max-height: 50px;
+     -fx-background-color: #b30000;
+      -fx-font: normal bold 18 Langdon;
+     
+     -fx-text-fill:white;
+}
+.exit:hover
+{
+   -fx-background-color: #ff3333;
+}
+.radio-button
+{
+	
+	-fx-font: normal bold 14 Langdon;
+     -fx-text-fill: #cccccc;
+}
+.radio-button .radio {
+    -fx-border-width: 1px;
+    -fx-border-color: #000;
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+    -fx-border-color: #4d4d4d;
+    -fx-padding: 4px;
+   
+}
+.radio-button .radio:selected {
+    -fx-background-color: green;
+    -fx-background-image: null;
+}
+.radio-button -radio:armed {
+    -fx-background-color: green;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: green;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: green;
+    -fx-background-image: null;
+}
+.radio-button .dot {
+	
+    -fx-background-radius: 15px;
+    -fx-padding: 8px;
+}
+
+.confirmBtn
+{
+	-fx-background-radius: 5em;
+     -fx-min-width: 33px;      
+     -fx-min-height: 33px;  
+     -fx-max-width: 80px;  
+     -fx-max-height: 80px;
+     -fx-background-color: green;
+      -fx-font: normal bold 30 Langdon;
+     
+     -fx-text-fill:white;
+}
+.confirmBtn:hover
+{
+	-fx-background-color: #aaff80;
+}
+.addItemsVBox
+{
+    -fx-background-color:transparent;
+    -fx-border-color:  #4d4d4d;
+     -fx-border-radius: 1.5em;
+    -fx-padding-top:50px;
+    -fx-padding-right:30px;
+    -fx-padding-left:30px;
+    -fx-padding-bottom:50px;
+     -fx-border-width:5px;
+}
+.priceview
+{
+      -fx-min-width: 60px;      
+     -fx-min-height: 80px;  
+     -fx-max-width: 100px;  
+     -fx-max-height: 135px;
+     -fx-background-color: transparent;
+     -fx-border-width:5px;
+     -fx-border-color:  #4d4d4d;
+     -fx-border-radius: 1.5em;
+   
+
+      -fx-font: normal bold 24 Langdon;
+     -fx-prompt-text-fill:#404040;
+     -fx-prompt-font-size:24px;
+     -fx-text-fill:white;
+}
+.items
+{
+     -fx-min-width: 120px;      
+     -fx-min-height: 80px;  
+     -fx-max-width: 200px;  
+     -fx-max-height: 135px;
+     -fx-background-color: transparent;
+     -fx-border-width:5px;
+     -fx-border-color:  #4d4d4d;
+     -fx-border-radius: 1.5em;
+     -fx-font-size:24px;
+     -fx-font-family: cambria;
+     -fx-prompt-text-fill:#404040;
+     -fx-prompt-font-size:16px;
+     -fx-text-fill:white;
+}
+.links
+{
+
+}
+.scroll
+{
+    -fx-background-color:transparent;
+}
+.listLabel
+{
+    -fx-text-fill:green;
+     -fx-font: normal bold 32 Langdon;
+
+}
+.itemview
+{
+      -fx-min-width: 60px;      
+     -fx-min-height: 80px;  
+     -fx-max-width: 100px;  
+     -fx-max-height: 135px;
+     -fx-background-color: transparent;
+     -fx-border-width:5px;
+     -fx-border-color:  #4d4d4d;
+     -fx-border-radius: 1.5em;
+    
+      -fx-font: normal bold 24 Langdon;
+     -fx-prompt-text-fill:#404040;
+     -fx-prompt-font-size:24px;
+     -fx-text-fill:white;
+}
+.plus
+{
+    -fx-background-color:#e6ffff;
+    -fx-background-radius: 5em;
+     -fx-background-radius: 5em; 
+     -fx-min-width: 73px;      
+     -fx-min-height: 73px;  
+     -fx-max-width: 200px;  
+     -fx-max-height: 200px;
+     -fx-border-radius: 5em;
+    
+     -fx-background-color: green;
+     -fx-font-size:30px;
+}
+.minus
+{
+     -fx-background-color:#e6ffff;
+    -fx-background-radius: 5em;
+     -fx-background-radius: 5em; 
+     -fx-min-width: 73px;      
+     -fx-min-height: 73px;  
+     -fx-max-width: 200px;  
+     -fx-max-height: 200px;
+     -fx-border-radius: 5em;
+    
+     -fx-background-color: red;
+     -fx-font-size:30px;
+}

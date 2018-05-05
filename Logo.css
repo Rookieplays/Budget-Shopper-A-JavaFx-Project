@@ -1,0 +1,33 @@
+.logoscene
+{
+	-fx-background-color: skyblue, derive(skyblue, 25%);
+-fx-background-insets: -20, -10;
+-fx-background-image: url("/Assets/budgetShopper.png");
+-fx-background-position: left top, center;
+-fx-background-repeat: no-repeat;
+-fx-background-size: cover, auto;
+}
+.logo2scene
+{
+	-fx-background-color: skyblue, derive(skyblue, 25%);
+-fx-background-insets: -20, -10;
+-fx-background-image: url("/Assets/budgetShopperblur.png");
+-fx-background-position: left top, center;
+-fx-background-repeat: no-repeat;
+-fx-background-size: cover, auto;
+}
+.logobtn
+{
+	-fx-background-radius: 10em;
+     -fx-min-width: 73px;      
+     -fx-min-height: 73px;  
+     -fx-max-width: 133px;  
+     -fx-max-height: 135px;
+     -fx-background-color: #1a1a1a;
+     -fx-font-size:30px;
+}
+.ring
+{
+	  -fx-background-color: transparent;
+     -fx-border-color:blue;
+}

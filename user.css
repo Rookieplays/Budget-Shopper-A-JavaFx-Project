@@ -1,0 +1,331 @@
+#tabpane
+{
+	-fx-tab-min-height: 3em;
+	-fx-tab-max-height:3em;
+	-fx-tab-min-width: 8em;
+	-fx-tab-max-width: 13em;
+	-fx-tab-background-color:  #1a1a1a;
+	-fx-background-color:#262626;
+}
+.tab .tab-label
+{
+	-fx-background-color:transparent;
+	-fx-alignment:CENTER;
+	-fx-text-fill:white;
+	-fx-font: normal bold 16 Langdon;
+	 -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+
+}
+
+.tab1 
+{
+	-fx-background-color:transparent;
+	-fx-alignment:CENTER;
+	-fx-text-fill:#004d33;
+	-fx-font: normal bold 16 Langdon;
+	 -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+
+}
+.tab2 
+{
+	-fx-background-color:transparent;
+	-fx-alignment:CENTER;
+	-fx-text-fill:#134d00;
+	-fx-font: normal bold 16 Langdon;
+	 -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+
+}
+.tab3 
+{
+	-fx-background-color:transparent;
+	-fx-alignment:CENTER;
+	-fx-text-fill: #4d4d00;
+	-fx-font: normal bold 16 Langdon;
+	 -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+
+}
+.tab4 
+{
+	-fx-background-color:transparent;
+	-fx-alignment:CENTER;
+	-fx-text-fill:#4d001f;
+	-fx-font: normal bold 16 Langdon;
+	 -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+	
+}
+.tab5
+{
+	-fx-background-color:transparent;
+	-fx-alignment:CENTER;
+	-fx-text-fill:#4d0000;
+	-fx-font: normal bold 16 Langdon;
+	 -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+
+}
+
+
+
+
+
+.tab1:selected
+{
+	-fx-background-color: #00e6b8;
+	-fx-background-radius:0;
+	-fx-background-insects:0;
+	-fx-border-width: 0 0 5 0;
+	-fx-border-color:#00111a;
+	-fx-text-fill:#004d33;
+ 	
+}
+.tab1:focused
+{
+	-fx-focus-color:transparent;
+}
+
+
+.tab2:selected
+{
+	-fx-background-color: #00b300;
+	-fx-background-radius:0;
+	-fx-background-insects:0;
+	-fx-border-width: 0 0 5 0;
+	-fx-text-fill:#134d00;
+	-fx-border-color:#0d1a00;
+ 	
+}
+.tab2:focused
+{
+	-fx-focus-color:transparent;
+}
+
+.tab3:selected
+{
+	-fx-background-color: #ffff00;
+	-fx-background-radius:0;
+	-fx-background-insects:0;
+	-fx-border-width: 0 0 5 0;
+	-fx-text-fill: #4d4d00;
+	-fx-border-color:#333300;
+ 	
+}
+.tab3:focused
+{
+	-fx-focus-color:transparent;
+}
+
+.tab4:selected
+{
+	-fx-background-color:#ff0066;
+	-fx-background-radius:0;
+	-fx-background-insects:0;
+	-fx-border-width: 0 0 5 0;
+	-fx-text-fill:#4d001f;
+	-fx-border-color:#1a000a;
+ 	
+}
+.grid
+{
+	-fx-background-color:#00394d;
+}
+.tab4:focused
+{
+	-fx-focus-color:transparent;
+}
+
+.tab5:selected
+{
+	-fx-background-color: #990000;
+	-fx-background-radius:0;
+	-fx-background-insects:0;
+	-fx-border-width: 0 0 5 0;
+	-fx-border-color:#ffb3b3;
+	-fx-text-fill:#4d0000;
+ 	
+}
+.tab5:focused
+{
+	-fx-focus-color:transparent;
+}
+.tab-pane *.tab-header-background
+{
+	-fx-background-color: #262626;
+}
+.wallet
+{
+	-fx-background-color:transparent;
+	-fx-min-width: 73px;      
+     -fx-min-height: 43px;  
+     -fx-max-width: 133px;  
+     -fx-max-height: 65px;
+     -fx-border-width: 5 0 0 0;
+	-fx-text-fill:white;
+	-fx-border-color:#008ae6;
+	-fx-font: normal bold 16 Langdon;
+}
+.wallet:hover
+{
+	-fx-background-color:#b3e0ff;
+
+}
+.walletLbl
+{
+	-fx-font: normal bold 24 Gruppo;
+}
+.walletLbl1
+{
+	-fx-font: normal bold 24 Gruppo;
+	
+}
+.wallet_Dialog
+{
+	-fx-background-color:#1a1a1a;
+	-fx-font: normal bold 16 Langdon;
+	-fx-text-fill:white;
+
+}
+.wallet_DialogBtn
+{
+	-fx-background-radius: 5em;
+     -fx-min-width: 33px;      
+     -fx-min-height: 33px;  
+     -fx-max-width: 80px;  
+     -fx-max-height: 80px;
+     -fx-background-color: #b3b3b3;
+      -fx-font: normal bold 30 Langdon;
+     
+     -fx-text-fill:white;
+}
+.wallet_DialogBtn:hover
+{
+	-fx-background-color: #aaff80;
+}
+.cW
+{
+	 -fx-font: normal bold 16 Langdon;
+	 -fx-background-color: #b3b3b3;
+
+
+}
+.newBal
+{
+	-fx-background-color:transparent;
+	-fx-min-width: 70px;      
+     -fx-min-height: 33px;  
+     -fx-max-width: 120px;  
+     -fx-max-height: 33px;
+     -fx-border-width: 5 0 0 0;
+	-fx-text-fill:white;
+	-fx-border-color:#009900;
+	-fx-font: normal bold 12 Langdon;
+}
+.savings
+{
+	-fx-background-color:transparent;
+	-fx-min-width: 73px;      
+     -fx-min-height: 43px;  
+     -fx-max-width: 133px;  
+     -fx-max-height: 65px;
+     -fx-border-width: 5 0 0 0;
+	-fx-text-fill:white;
+	-fx-border-color:green;
+	-fx-font: normal bold 16 Langdon;
+
+	
+}
+.savings:hover
+{
+	-fx-background-color:#00ff00;
+}
+.savingsLbl
+{
+	-fx-font: normal bold 24 Gruppo;
+}
+.login:hover
+{
+	-fx-background-color:#b3ffb3;
+}
+.login
+{
+	-fx-background-color:transparent;
+	-fx-min-width: 70px;      
+     -fx-min-height: 43px;  
+     -fx-max-width: 120px;  
+     -fx-max-height: 43px;
+     -fx-border-width: 5 0 0 0;
+	-fx-text-fill:white;
+	-fx-border-color:#009900;
+	-fx-font: normal bold 12 Langdon;
+}
+.settings
+{
+	-fx-background-radius: 5em;
+     -fx-min-width: 23px;      
+     -fx-min-height: 23px;  
+     -fx-max-width: 53px;  
+     -fx-max-height: 53px;
+     -fx-background-color:transparent ;
+     -fx-font-size:20px;
+     -fx-text-fill:white;
+}
+.settings:hover
+{
+	 -fx-background-color:#262626 ;
+}
+.signupbtn
+{
+
+	
+    -fx-background-color:transparent;
+	-fx-min-width: 43px;      
+     -fx-min-height: 43px;  
+     -fx-max-width: 75px;  
+     -fx-max-height: 65px;
+     -fx-font-size:20px;
+     -fx-text-fill:white;
+     -fx-border-width: 0 0 0 5;
+     -fx-border-color:#262626;
+}
+.signupbtn:hover
+{
+	 -fx-background-color:#f2f2f2 ;
+}
+.tp
+{
+	-fx-font: normal bold 16 Langdon;
+    -fx-base: #AE3522;
+    -fx-text-fill: orange;
+}
+.cb {
+     -fx-background-color:transparent;
+	-fx-min-width: 43px;      
+     -fx-min-height: 43px;  
+     -fx-max-width: 75px;  
+     -fx-max-height: 65px;
+     -fx-font-size:20px;
+     -fx-text-fill:white;
+     -fx-border-width: 0 0 0 5;
+     -fx-border-color:#262626;
+}
+.cb:hover{
+
+	-fx-background-color:#262626 ;
+}
+.cb1 {
+     -fx-background-color:transparent;
+	-fx-min-width: 100px;      
+     -fx-min-height: 43px;  
+     -fx-max-width: 150px;  
+     -fx-max-height: 65px;
+     -fx-font-size:20px;
+     -fx-text-fill:white;
+     -fx-border-width: 0 0 0 5;
+     -fx-border-color:#262626;
+}
+.cb1:hover{
+
+	-fx-background-color:#262626 ;
+}
+/** Size the combo-box drop down list. */
+.combo-box-popup > .list-view {
+    -fx-pref-width: 50;
+}
